@@ -10,4 +10,6 @@ The **sudoku_string** is an 81 character string representing the starting state 
 
 This program will first attempt to solve the puzzle using the AC3 algorithm, which is much quicker. If no solution is found, then it switches over to the backtracking method. Computationally, this is more intensive but a solution will be found.
 
-Program prints string of completed board, followed by either ACS or BTS depending on which was used to solve.
+Program prints string of completed board, followed by either ACS or BTS depending on which was used to solve. The above example would print the following:
+
+> 148697523372548961956321478567983214419276385823154796691432857735819642284765139 BTS
